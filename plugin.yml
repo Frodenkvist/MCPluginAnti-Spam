@@ -1,0 +1,6 @@
+name: AntiSpam
+main: me.frodenkvist.antispam.AntiSpam
+version: 1.0
+description: >
+             Region based teleport, mob spawn, music playing plugin
+commands:
