@@ -5,13 +5,14 @@ public class MyRunnable implements Runnable
 	 //public static int taskID;
 	 public AntiSpam plugin;
 	 public SpamPlayer sp;
-	 
+	 public float thing;
+
 	 public MyRunnable(AntiSpam instance, SpamPlayer sp)
 	 {
 		plugin = instance;
 		this.sp = sp;
 	 }
-	 
+
 	 @Override
 	 public void run()
 	 {
